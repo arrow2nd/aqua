@@ -1,0 +1,10 @@
+name: 'aqua'
+version: '0.0.1'
+license: 'MIT'
+author: 'arrow2nd'
+url: ''
+description: ''
+colorschemes:
+- name: 'aqua'
+  background: 'dark'
+  palette: 'aqua'

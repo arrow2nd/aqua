@@ -1,0 +1,11 @@
+# mini.status
+MiniStatuslineModeNormal: 'starnight aria'
+MiniStatuslineModeInsert: 'starnight aquamarina'
+MiniStatuslineModeVisual: 'starnight alice'
+MiniStatuslineModeReplace: 'starnight alicia'
+MiniStatuslineModeCommand: 'mistbloom_d starnight_l'
+MiniStatuslineModeOther: 'mistbloom_d starnight'
+MiniStatuslineDevinfo: 'mistbloom_d starnight_l'
+MiniStatuslineFilename: 'mistbloom_d starnight_d'
+MiniStatuslineFileinfo: 'mistbloom_d starnight_l'
+MiniStatuslineInactive: '@StatusLineNC'

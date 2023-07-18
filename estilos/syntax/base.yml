@@ -1,0 +1,82 @@
+# BASE UI
+ColorColumn: '- starnight'
+Conceal: 'steel starnight'
+Cursor: 'mistbloom starnight'
+CursorIM: '@Cursor'
+CursorColumn: '- starnight'
+CursorLine: '- starnight_l'
+CursorLineNr: '@CursorLine'
+Directory: 'mistbloom'
+DiffAdd: 'alice_l alice_d'
+DiffChange: 'alicia_l alicia_d'
+DiffDelete: 'akari_l akari_d'
+DiffText: 'mistbloom starnight_l'
+ErrorMsg: 'bocolo'
+VertSplit: 'starnight_l starnight'
+Folded: 'starnight_l starnight'
+FoldColumn: '@Folded'
+SignColumn: 'mistbloom_d starnight_l'
+IncSearch: '- - r'
+LineNr: 'starnight_l starnight'
+MatchParen: 'starnight_l starnight'
+ModeMsg: 'mistbloom_d'
+MoreMsg: 'mistbloom_d'
+NonText: 'starnight_l'
+Normal: 'mistbloom starnight'
+PMenu: 'mistbloom aika_d'
+PMenuSel: 'mistbloom aika b'
+PmenuSbar: '- aika_d'
+PmenuThumb: 'mistbloom'
+Question: 'alice'
+Search: 'starnight_l akari'
+SpecialKey: 'starnight_l'
+SpellBad: 'bocolo'
+SpellLocal: 'mistbloom'
+SpellCap: 'mistbloom'
+SpellRare: 'mistbloom'
+StatusLine: 'mistbloom_d starnight_l'
+StatusLineNC: 'mistbloom_d starnight_d'
+TabLine: 'steel_d starnight_d'
+TabLineFill: 'steel_d starnight_d'
+TabLineSel: 'mistbloom starnight'
+Title: 'aquamarina'
+Visual: '- starnight_l'
+VisualNOS: '@VisualNOS'
+WarningMsg: 'alicia'
+WildMenu: 'starnight mistbloom_d'
+# BASE SYNTAX
+Comment: 'steel'
+Constant: 'aquamarina'
+String: 'mistbloom_d' # Constant
+Character: '' # Constant
+Boolean: '' # Constant
+Number: '' # Constant
+Float: '' # Constant
+Identifier: 'mistbloom'
+Function: 'celestialblue' # Identifier
+Statement: 'aria'
+Conditional: '' # Statement
+Repeat: '' # Statement
+Label: '' # Statement
+Operator: 'mistbloom' # Statement
+Keyword: '' # Statement
+Exception: '' # Statement
+PreProc: 'aria'
+Include: '' # PreProc
+Define: '' # PreProc
+Macro: '' # PreProc
+PreCondit: '' # PreProc
+Type: 'celestialblue'
+StorageClass: '' # Type
+Structure: '' # Type
+Typedef: '' # Type
+Special: 'mistbloom'
+SpecialChar: '' # Special
+Tag: '' # Special
+Delimiter: '' # Special
+SpecialComment: '' # Special
+Debug: '' # Special
+Underlined: ''
+Ignore: '-'
+Error: 'bocolo'
+Todo: 'alice alice_d'
