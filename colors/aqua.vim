@@ -23,9 +23,14 @@ endif
 
 let g:aqua_bold = get(g:, '_bold', 0)
 
-  hi GitSignsAdd guifg=#D3E9DE ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi GitSignsChange guifg=#FCEDD4 ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi GitSignsDelete guifg=#FEE2E7 ctermfg=224 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi DiagnosticError guifg=#CE4964 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi DiagnosticWarn guifg=#F5C676 ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi DiagnosticInfo guifg=#9FBAE4 ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi DiagnosticHint guifg=#99A8CC ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi DiagnosticOk guifg=#B1D8C5 ctermfg=152 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi GitSignsAdd guifg=#B1D8C5 ctermfg=152 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi GitSignsChange guifg=#F5C676 ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi GitSignsDelete guifg=#FCAFBF ctermfg=217 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi ColorColumn guifg=NONE ctermfg=NONE guibg=#171927 ctermbg=234 gui=NONE cterm=NONE
   hi Conceal guifg=#606685 ctermfg=60 guibg=#171927 ctermbg=234 gui=NONE cterm=NONE
   hi Cursor guifg=#DDE2EE ctermfg=254 guibg=#171927 ctermbg=234 gui=NONE cterm=NONE
@@ -37,12 +42,12 @@ let g:aqua_bold = get(g:, '_bold', 0)
   hi DiffAdd guifg=#D3E9DE ctermfg=253 guibg=#597A6A ctermbg=65 gui=NONE cterm=NONE
   hi DiffChange guifg=#FCEDD4 ctermfg=230 guibg=#827555 ctermbg=101 gui=NONE cterm=NONE
   hi DiffDelete guifg=#FEE2E7 ctermfg=224 guibg=#BB6A7B ctermbg=132 gui=NONE cterm=NONE
-  hi DiffText guifg=#DDE2EE ctermfg=254 guibg=#262940 ctermbg=235 gui=NONE cterm=NONE
+  hi DiffText guifg=#FCEDD4 ctermfg=230 guibg=#9E8F6B ctermbg=137 gui=NONE cterm=NONE
   hi ErrorMsg guifg=#CE4964 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi VertSplit guifg=#262940 ctermfg=235 guibg=#171927 ctermbg=234 gui=NONE cterm=NONE
-  hi Folded guifg=#262940 ctermfg=235 guibg=#171927 ctermbg=234 gui=NONE cterm=NONE
-  hi link FoldColumn Folded
-  hi SignColumn guifg=#99A8CC ctermfg=110 guibg=#262940 ctermbg=235 gui=NONE cterm=NONE
+  hi Folded guifg=#99A8CC ctermfg=110 guibg=#171927 ctermbg=234 gui=NONE cterm=NONE
+  hi FoldColumn guifg=#99A8CC ctermfg=110 guibg=#171927 ctermbg=234 gui=NONE cterm=NONE
+  hi SignColumn guifg=#99A8CC ctermfg=110 guibg=#171927 ctermbg=234 gui=NONE cterm=NONE
   hi IncSearch guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
   hi LineNr guifg=#262940 ctermfg=235 guibg=#171927 ctermbg=234 gui=NONE cterm=NONE
   hi MatchParen guifg=#262940 ctermfg=235 guibg=#171927 ctermbg=234 gui=NONE cterm=NONE
@@ -81,6 +86,7 @@ let g:aqua_bold = get(g:, '_bold', 0)
   hi PreProc guifg=#749BD8 ctermfg=104 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Type guifg=#9FBAE4 ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Special guifg=#DDE2EE ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi Underlined guifg=#B1D8C5 ctermfg=152 guibg=NONE ctermbg=NONE gui=underline cterm=underline
   hi Ignore guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Error guifg=#CE4964 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Todo guifg=#B1D8C5 ctermfg=152 guibg=#597A6A ctermbg=65 gui=NONE cterm=NONE
@@ -94,4 +100,16 @@ let g:aqua_bold = get(g:, '_bold', 0)
   hi MiniStatuslineFilename guifg=#99A8CC ctermfg=110 guibg=#131520 ctermbg=233 gui=NONE cterm=NONE
   hi MiniStatuslineFileinfo guifg=#99A8CC ctermfg=110 guibg=#262940 ctermbg=235 gui=NONE cterm=NONE
   hi link MiniStatuslineInactive StatusLineNC
+  hi NeogitHunkHeader guifg=#99A8CC ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi link NeogitHunkHeaderHighlight NeogitHunkHeader
+  hi NeogitDiffContext guifg=NONE ctermfg=NONE guibg=#171927 ctermbg=234 gui=NONE cterm=NONE
+  hi link NeogitDiffContextHighlight NeogitDiffContext
+  hi link NeogitDiffAdd DiffAdd
+  hi link NeogitDiffAddHighlight DiffAdd
+  hi link NeogitDiffDelete DiffDelete
+  hi link NeogitDiffDeleteHighlight DiffDelete
+  hi NeogitDiffHeader guifg=#99A8CC ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi link NeogitDiffHeaderHighlight NeogitDiffHeader
+  hi link NeogitCursorLine CursorLine
+  hi link DiffviewSignColumn SignColumn
 
