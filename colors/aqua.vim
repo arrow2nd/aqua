@@ -57,8 +57,8 @@ let g:aqua_bold = get(g:, '_bold', 0)
   hi Normal guifg=#DDE2EE ctermfg=254 guibg=#171927 ctermbg=234 gui=NONE cterm=NONE
   hi PMenu guifg=#DDE2EE ctermfg=254 guibg=#24355C ctermbg=236 gui=NONE cterm=NONE
   hi PMenuSel guifg=#DDE2EE ctermfg=254 guibg=#3D5A9D ctermbg=61 gui=Bold cterm=Bold
-  hi PmenuSbar guifg=NONE ctermfg=NONE guibg=#24355C ctermbg=236 gui=NONE cterm=NONE
-  hi PmenuThumb guifg=#DDE2EE ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi PmenuSbar guifg=#99A8CC ctermfg=110 guibg=#24355C ctermbg=236 gui=NONE cterm=NONE
+  hi PmenuThumb guifg=#DDE2EE ctermfg=254 guibg=#DDE2EE ctermbg=254 gui=NONE cterm=NONE
   hi Question guifg=#B1D8C5 ctermfg=152 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Search guifg=#262940 ctermfg=235 guibg=#FCAFBF ctermbg=217 gui=NONE cterm=NONE
   hi SpecialKey guifg=#262940 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
