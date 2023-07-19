@@ -79,4 +79,4 @@ Debug: '' # Special
 Underlined: 'alice - u'
 Ignore: '-'
 Error: 'bocolo'
-Todo: 'alice alice_d'
+Todo: 'alice -'

@@ -89,7 +89,7 @@ let g:aqua_bold = get(g:, '_bold', 0)
   hi Underlined guifg=#B1D8C5 ctermfg=152 guibg=NONE ctermbg=NONE gui=underline cterm=underline
   hi Ignore guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Error guifg=#CE4964 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi Todo guifg=#B1D8C5 ctermfg=152 guibg=#597A6A ctermbg=65 gui=NONE cterm=NONE
+  hi Todo guifg=#B1D8C5 ctermfg=152 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi MiniStatuslineModeNormal guifg=#171927 ctermfg=234 guibg=#749BD8 ctermbg=104 gui=NONE cterm=NONE
   hi MiniStatuslineModeInsert guifg=#171927 ctermfg=234 guibg=#19A6CA ctermbg=38 gui=NONE cterm=NONE
   hi MiniStatuslineModeVisual guifg=#171927 ctermfg=234 guibg=#B1D8C5 ctermbg=152 gui=NONE cterm=NONE
