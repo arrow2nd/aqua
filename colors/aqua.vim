@@ -76,7 +76,7 @@ let g:aqua_bold = get(g:, '_bold', 0)
   hi link VisualNOS VisualNOS
   hi WarningMsg guifg=#CE4964 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi WildMenu guifg=#171927 ctermfg=234 guibg=#99A8CC ctermbg=110 gui=NONE cterm=NONE
-  hi Comment guifg=#606685 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi Comment guifg=#606685 ctermfg=60 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
   hi Constant guifg=#19A6CA ctermfg=38 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi String guifg=#99A8CC ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Identifier guifg=#DDE2EE ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
