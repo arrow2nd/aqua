@@ -111,5 +111,45 @@ let g:aqua_bold = get(g:, '_bold', 0)
   hi NeogitDiffHeader guifg=#99A8CC ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi link NeogitDiffHeaderHighlight NeogitDiffHeader
   hi link NeogitCursorLine CursorLine
-  hi link DiffviewSignColumn SignColumn
 
+if has('terminal')
+  let g:terminal_ansi_colors = [
+  \ "#99A8CC",
+  \ "#FCAFBF",
+  \ "#B1D8C5",
+  \ "#F5C676",
+  \ "#749BD8",
+  \ "#BB6A7B",
+  \ "#19A6CA",
+  \ "#DDE2EE",
+  \ "#DDE2EE",
+  \ "#FEE2E7",
+  \ "#D3E9DE",
+  \ "#FCEDD4",
+  \ "#9FBAE4",
+  \ "#FCAFBF",
+  \ "#9FBAE4",
+  \ "#DDE2EE"
+  \ ]
+endif
+
+if has('nvim')
+  let g:terminal_color_foreground = "#DDE2EE"
+  let g:terminal_color_background = "#171927"
+  let g:terminal_color_0 = "#99A8CC"
+  let g:terminal_color_1 = "#FCAFBF"
+  let g:terminal_color_2 = "#B1D8C5"
+  let g:terminal_color_3 = "#F5C676"
+  let g:terminal_color_4 = "#749BD8"
+  let g:terminal_color_5 = "#BB6A7B"
+  let g:terminal_color_6 = "#19A6CA"
+  let g:terminal_color_7 = "#DDE2EE"
+  let g:terminal_color_8 = "#DDE2EE"
+  let g:terminal_color_9 = "#FEE2E7"
+  let g:terminal_color_10 = "#D3E9DE"
+  let g:terminal_color_11 = "#FCEDD4"
+  let g:terminal_color_12 = "#9FBAE4"
+  let g:terminal_color_13 = "#FCAFBF"
+  let g:terminal_color_14 = "#9FBAE4"
+  let g:terminal_color_15 = "#DDE2EE"
+endif
