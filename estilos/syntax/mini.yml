@@ -9,3 +9,6 @@ MiniStatuslineDevinfo: 'mistbloom_d starnight_l'
 MiniStatuslineFilename: 'mistbloom_d starnight_d'
 MiniStatuslineFileinfo: 'mistbloom_d starnight_l'
 MiniStatuslineInactive: '@StatusLineNC'
+
+# mini.indentscope
+MiniIndentscopeSymbol: 'steel'

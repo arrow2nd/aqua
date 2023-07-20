@@ -67,6 +67,7 @@ let g:aqua_bold = get(g:, '_bold', 0)
   hi link @type.builtin Type
   hi @variable guifg=#DDE2EE ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi link @variable.builtin Statement
+  hi LazyDimmed guifg=#99A8CC ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi LazyProgressTodo guifg=#171927 ctermfg=234 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi DiagnosticError guifg=#CE4964 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi DiagnosticWarn guifg=#F5C676 ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -146,6 +147,7 @@ let g:aqua_bold = get(g:, '_bold', 0)
   hi MiniStatuslineFilename guifg=#99A8CC ctermfg=110 guibg=#131520 ctermbg=233 gui=NONE cterm=NONE
   hi MiniStatuslineFileinfo guifg=#99A8CC ctermfg=110 guibg=#262940 ctermbg=235 gui=NONE cterm=NONE
   hi link MiniStatuslineInactive StatusLineNC
+  hi MiniIndentscopeSymbol guifg=#606685 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi NeogitHunkHeader guifg=#99A8CC ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi link NeogitHunkHeaderHighlight NeogitHunkHeader
   hi NeogitDiffContext guifg=NONE ctermfg=NONE guibg=#171927 ctermbg=234 gui=NONE cterm=NONE
