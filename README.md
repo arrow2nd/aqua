@@ -1,3 +1,3 @@
-# aqua.vim
+# aqua
 
 [WIP] 🌊 🎨
