@@ -183,7 +183,7 @@ if has('terminal')
   \ "#BB6A7B",
   \ "#38AFCD",
   \ "#DDE2EE",
-  \ "#DDE2EE",
+  \ "#99A8CC",
   \ "#FEE2E7",
   \ "#D3E9DE",
   \ "#FCEDD4",
@@ -205,7 +205,7 @@ if has('nvim')
   let g:terminal_color_5 = "#BB6A7B"
   let g:terminal_color_6 = "#38AFCD"
   let g:terminal_color_7 = "#DDE2EE"
-  let g:terminal_color_8 = "#DDE2EE"
+  let g:terminal_color_8 = "#99A8CC"
   let g:terminal_color_9 = "#FEE2E7"
   let g:terminal_color_10 = "#D3E9DE"
   let g:terminal_color_11 = "#FCEDD4"
