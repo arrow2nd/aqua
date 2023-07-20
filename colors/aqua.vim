@@ -153,9 +153,19 @@ let g:aqua_bold = get(g:, '_bold', 0)
   hi link NeogitDiffAddHighlight DiffAdd
   hi link NeogitDiffDelete DiffDelete
   hi link NeogitDiffDeleteHighlight DiffDelete
+  hi NeogitCommitViewHeader guifg=#99A8CC ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi NeogitDiffHeader guifg=#99A8CC ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi link NeogitDiffHeaderHighlight NeogitDiffHeader
   hi link NeogitCursorLine CursorLine
+  hi NeogitBranch guifg=#38AFCD ctermfg=74 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi NeogitUntrackedfiles guifg=#749BD8 ctermfg=104 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi NeogitUnstagedchanges guifg=#749BD8 ctermfg=104 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi NeogitUnmergedchanges guifg=#749BD8 ctermfg=104 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi NeogitUnpulledchanges guifg=#749BD8 ctermfg=104 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi NeogitRecentcommits guifg=#749BD8 ctermfg=104 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi NeogitStagedchanges guifg=#749BD8 ctermfg=104 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi NeogitStashes guifg=#749BD8 ctermfg=104 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi NeogitRebasing guifg=#749BD8 ctermfg=104 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi link xmlAttrib Function
   hi link xmlAttribPunct Statement
   hi link xmlEndTag Statement
