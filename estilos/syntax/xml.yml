@@ -1,0 +1,6 @@
+xmlAttrib: '@Function'
+xmlAttribPunct: '@Statement'
+xmlEndTag: '@Statement'
+xmlNamespace: '@Statement'
+xmlTag: '@Statement'
+xmlTagName: '@Statement'

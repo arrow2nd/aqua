@@ -72,7 +72,7 @@ Structure: '' # Type
 Typedef: '' # Type
 Special: 'mistbloom'
 SpecialChar: '' # Special
-Tag: '' # Special
+Tag: 'aria' # Special
 Delimiter: '' # Special
 SpecialComment: '' # Special
 Debug: '' # Special
