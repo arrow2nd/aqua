@@ -67,6 +67,7 @@ let g:aqua_bold = get(g:, '_bold', 0)
   hi link @type.builtin Type
   hi @variable guifg=#DDE2EE ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi link @variable.builtin Statement
+  hi LazyProgressTodo guifg=#171927 ctermfg=234 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi DiagnosticError guifg=#CE4964 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi DiagnosticWarn guifg=#F5C676 ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi DiagnosticInfo guifg=#9FBAE4 ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
