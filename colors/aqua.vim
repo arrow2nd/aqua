@@ -23,6 +23,50 @@ endif
 
 let g:aqua_bold = get(g:, '_bold', 0)
 
+  hi link @attribute Special
+  hi link @boolean Constant
+  hi link @character Constant
+  hi link @comment Comment
+  hi @constructor guifg=#DDE2EE ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi link @conditional Statement
+  hi link @constant Constant
+  hi link @constant.builtin Constant
+  hi link @constant.macro Constant
+  hi link @error Error
+  hi link @exception Statement
+  hi link @function Function
+  hi link @function.builtin Function
+  hi link @function.macro Function
+  hi @field guifg=#DDE2EE ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi link @float Constant
+  hi link @include Statement
+  hi link @keyword Statement
+  hi link @keyword.function Statement
+  hi link @label Special
+  hi link @namespace Statement
+  hi link @number Constant
+  hi @operator guifg=#DDE2EE ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi @parameter guifg=#DDE2EE ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi @parameter.reference guifg=#DDE2EE ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi @property guifg=#DDE2EE ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi @punctuation.delimiter guifg=#DDE2EE ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi @punctuation.bracket guifg=#DDE2EE ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi link @punctuation.special Special
+  hi link @repeat Statement
+  hi link @string String
+  hi link @string.regex String
+  hi link @string.escape Special
+  hi link @tag Tag
+  hi link @tag.attribute Function
+  hi link @tag.delimiter Tag
+  hi @text guifg=#DDE2EE ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi link @text.note Todo
+  hi link @text.title Title
+  hi link @text.uri Underlined
+  hi link @type Type
+  hi link @type.builtin Type
+  hi @variable guifg=#DDE2EE ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi link @variable.builtin Statement
   hi DiagnosticError guifg=#CE4964 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi DiagnosticWarn guifg=#F5C676 ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi DiagnosticInfo guifg=#9FBAE4 ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -71,13 +115,13 @@ let g:aqua_bold = get(g:, '_bold', 0)
   hi TabLine guifg=#35394A ctermfg=237 guibg=#131520 ctermbg=233 gui=NONE cterm=NONE
   hi TabLineFill guifg=#35394A ctermfg=237 guibg=#131520 ctermbg=233 gui=NONE cterm=NONE
   hi TabLineSel guifg=#DDE2EE ctermfg=254 guibg=#171927 ctermbg=234 gui=NONE cterm=NONE
-  hi Title guifg=#19A6CA ctermfg=38 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi Title guifg=#38AFCD ctermfg=74 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Visual guifg=NONE ctermfg=NONE guibg=#262940 ctermbg=235 gui=NONE cterm=NONE
   hi link VisualNOS VisualNOS
   hi WarningMsg guifg=#CE4964 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi WildMenu guifg=#171927 ctermfg=234 guibg=#99A8CC ctermbg=110 gui=NONE cterm=NONE
   hi Comment guifg=#606685 ctermfg=60 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
-  hi Constant guifg=#19A6CA ctermfg=38 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi Constant guifg=#38AFCD ctermfg=74 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi String guifg=#99A8CC ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Identifier guifg=#DDE2EE ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Function guifg=#9FBAE4 ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -86,12 +130,13 @@ let g:aqua_bold = get(g:, '_bold', 0)
   hi PreProc guifg=#749BD8 ctermfg=104 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Type guifg=#9FBAE4 ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Special guifg=#DDE2EE ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi Tag guifg=#749BD8 ctermfg=104 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Underlined guifg=#B1D8C5 ctermfg=152 guibg=NONE ctermbg=NONE gui=underline cterm=underline
   hi Ignore guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Error guifg=#CE4964 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Todo guifg=#B1D8C5 ctermfg=152 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi MiniStatuslineModeNormal guifg=#171927 ctermfg=234 guibg=#749BD8 ctermbg=104 gui=NONE cterm=NONE
-  hi MiniStatuslineModeInsert guifg=#171927 ctermfg=234 guibg=#19A6CA ctermbg=38 gui=NONE cterm=NONE
+  hi MiniStatuslineModeInsert guifg=#171927 ctermfg=234 guibg=#38AFCD ctermbg=74 gui=NONE cterm=NONE
   hi MiniStatuslineModeVisual guifg=#171927 ctermfg=234 guibg=#B1D8C5 ctermbg=152 gui=NONE cterm=NONE
   hi MiniStatuslineModeReplace guifg=#171927 ctermfg=234 guibg=#F5C676 ctermbg=222 gui=NONE cterm=NONE
   hi MiniStatuslineModeCommand guifg=#99A8CC ctermfg=110 guibg=#262940 ctermbg=235 gui=NONE cterm=NONE
@@ -111,6 +156,12 @@ let g:aqua_bold = get(g:, '_bold', 0)
   hi NeogitDiffHeader guifg=#99A8CC ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi link NeogitDiffHeaderHighlight NeogitDiffHeader
   hi link NeogitCursorLine CursorLine
+  hi link xmlAttrib Function
+  hi link xmlAttribPunct Statement
+  hi link xmlEndTag Statement
+  hi link xmlNamespace Statement
+  hi link xmlTag Statement
+  hi link xmlTagName Statement
 
 if has('terminal')
   let g:terminal_ansi_colors = [
@@ -120,7 +171,7 @@ if has('terminal')
   \ "#F5C676",
   \ "#749BD8",
   \ "#BB6A7B",
-  \ "#19A6CA",
+  \ "#38AFCD",
   \ "#DDE2EE",
   \ "#DDE2EE",
   \ "#FEE2E7",
@@ -142,7 +193,7 @@ if has('nvim')
   let g:terminal_color_3 = "#F5C676"
   let g:terminal_color_4 = "#749BD8"
   let g:terminal_color_5 = "#BB6A7B"
-  let g:terminal_color_6 = "#19A6CA"
+  let g:terminal_color_6 = "#38AFCD"
   let g:terminal_color_7 = "#DDE2EE"
   let g:terminal_color_8 = "#DDE2EE"
   let g:terminal_color_9 = "#FEE2E7"
