@@ -157,6 +157,10 @@ let g:aqua_bold = get(g:, '_bold', 0)
   hi NeogitDiffHeader guifg=#99A8CC ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi link NeogitDiffHeaderHighlight NeogitDiffHeader
   hi link NeogitCursorLine CursorLine
+  hi NeogitPopupSwitchKey guifg=#749BD8 ctermfg=104 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi NeogitPopupOptionKey guifg=#749BD8 ctermfg=104 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi NeogitPopupConfigKey guifg=#749BD8 ctermfg=104 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi NeogitPopupActionKey guifg=#749BD8 ctermfg=104 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi NeogitBranch guifg=#38AFCD ctermfg=74 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi NeogitUntrackedfiles guifg=#749BD8 ctermfg=104 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi NeogitUnstagedchanges guifg=#749BD8 ctermfg=104 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
