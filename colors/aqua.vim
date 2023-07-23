@@ -87,7 +87,7 @@ let g:aqua_bold = get(g:, '_bold', 0)
   hi DiffAdd guifg=#D3E9DE ctermfg=253 guibg=#597A6A ctermbg=65 gui=NONE cterm=NONE
   hi DiffChange guifg=#FCEDD4 ctermfg=230 guibg=#827555 ctermbg=101 gui=NONE cterm=NONE
   hi DiffDelete guifg=#FEE2E7 ctermfg=224 guibg=#BB6A7B ctermbg=132 gui=NONE cterm=NONE
-  hi DiffText guifg=#FCEDD4 ctermfg=230 guibg=#9E8F6B ctermbg=137 gui=NONE cterm=NONE
+  hi DiffText guifg=#FCEDD4 ctermfg=230 guibg=#827555 ctermbg=101 gui=NONE cterm=NONE
   hi ErrorMsg guifg=#CE4964 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi VertSplit guifg=#262940 ctermfg=235 guibg=#171927 ctermbg=234 gui=NONE cterm=NONE
   hi Folded guifg=#99A8CC ctermfg=110 guibg=#171927 ctermbg=234 gui=NONE cterm=NONE
