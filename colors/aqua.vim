@@ -132,7 +132,7 @@ let g:aqua_bold = get(g:, '_bold', 0)
   hi Type guifg=#9FBAE4 ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Special guifg=#DDE2EE ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Tag guifg=#749BD8 ctermfg=104 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi Underlined guifg=#FCAFBF ctermfg=217 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+  hi Underlined guifg=#99A8CC ctermfg=110 guibg=NONE ctermbg=NONE gui=underline cterm=underline
   hi Ignore guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Error guifg=#CE4964 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Todo guifg=#B1D8C5 ctermfg=152 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
