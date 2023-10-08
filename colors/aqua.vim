@@ -82,7 +82,7 @@ let g:aqua_bold = get(g:, '_bold', 0)
   hi link CursorIM Cursor
   hi CursorColumn guifg=NONE ctermfg=NONE guibg=#171927 ctermbg=234 gui=NONE cterm=NONE
   hi CursorLine guifg=NONE ctermfg=NONE guibg=#262940 ctermbg=235 gui=NONE cterm=NONE
-  hi link CursorLineNr CursorLine
+  hi CursorLineNr guifg=#9FBAE4 ctermfg=146 guibg=#171927 ctermbg=234 gui=NONE cterm=NONE
   hi Directory guifg=#DDE2EE ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi DiffAdd guifg=#D3E9DE ctermfg=253 guibg=#597A6A ctermbg=65 gui=NONE cterm=NONE
   hi DiffChange guifg=#FCEDD4 ctermfg=230 guibg=#827555 ctermbg=101 gui=NONE cterm=NONE
@@ -94,7 +94,9 @@ let g:aqua_bold = get(g:, '_bold', 0)
   hi FoldColumn guifg=#99A8CC ctermfg=110 guibg=#171927 ctermbg=234 gui=NONE cterm=NONE
   hi SignColumn guifg=#99A8CC ctermfg=110 guibg=#171927 ctermbg=234 gui=NONE cterm=NONE
   hi IncSearch guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
-  hi LineNr guifg=#262940 ctermfg=235 guibg=#171927 ctermbg=234 gui=NONE cterm=NONE
+  hi LineNr guifg=#38AFCD ctermfg=74 guibg=#171927 ctermbg=234 gui=NONE cterm=NONE
+  hi LineNrAbove guifg=#38AFCD ctermfg=74 guibg=#171927 ctermbg=234 gui=NONE cterm=NONE
+  hi LineNrBelow guifg=#38AFCD ctermfg=74 guibg=#171927 ctermbg=234 gui=NONE cterm=NONE
   hi MatchParen guifg=#262940 ctermfg=235 guibg=#171927 ctermbg=234 gui=NONE cterm=NONE
   hi ModeMsg guifg=#99A8CC ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi MoreMsg guifg=#99A8CC ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
