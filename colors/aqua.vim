@@ -102,6 +102,8 @@ let g:aqua_bold = get(g:, '_bold', 0)
   hi MoreMsg guifg=#99A8CC ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi NonText guifg=#262940 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Normal guifg=#DDE2EE ctermfg=254 guibg=#171927 ctermbg=234 gui=NONE cterm=NONE
+  hi NormalFloat guifg=#DDE2EE ctermfg=254 guibg=#171927 ctermbg=234 gui=NONE cterm=NONE
+  hi link FloatBorder Normal
   hi PMenu guifg=#DDE2EE ctermfg=254 guibg=#24355C ctermbg=236 gui=NONE cterm=NONE
   hi PMenuSel guifg=#DDE2EE ctermfg=254 guibg=#3D5A9D ctermbg=61 gui=Bold cterm=Bold
   hi PmenuSbar guifg=#99A8CC ctermfg=110 guibg=#24355C ctermbg=236 gui=NONE cterm=NONE
