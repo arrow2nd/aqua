@@ -73,6 +73,7 @@ let g:aqua_bold = get(g:, '_bold', 0)
   hi DiagnosticInfo guifg=#9FBAE4 ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi DiagnosticHint guifg=#99A8CC ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi DiagnosticOk guifg=#B1D8C5 ctermfg=152 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi link LspInfoBorder Normal
   hi GitSignsAdd guifg=#B1D8C5 ctermfg=152 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi GitSignsChange guifg=#F5C676 ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi GitSignsDelete guifg=#FCAFBF ctermfg=217 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
