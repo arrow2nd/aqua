@@ -110,8 +110,9 @@ let g:aqua_bold = get(g:, '_bold', 0)
   hi PmenuSbar guifg=#99A8CC ctermfg=110 guibg=#24355C ctermbg=236 gui=NONE cterm=NONE
   hi PmenuThumb guifg=#DDE2EE ctermfg=254 guibg=#DDE2EE ctermbg=254 gui=NONE cterm=NONE
   hi Question guifg=#B1D8C5 ctermfg=152 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi link QuickFixLine IncSearch
+  hi QuickFixLine guifg=#171927 ctermfg=234 guibg=#DDE2EE ctermbg=254 gui=NONE cterm=NONE
   hi Search guifg=#262940 ctermfg=235 guibg=#FCAFBF ctermbg=217 gui=NONE cterm=NONE
+  hi CurSearch guifg=#262940 ctermfg=235 guibg=#F5C676 ctermbg=222 gui=NONE cterm=NONE
   hi SpecialKey guifg=#262940 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi SpellBad guifg=#CE4964 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi SpellLocal guifg=#DDE2EE ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
