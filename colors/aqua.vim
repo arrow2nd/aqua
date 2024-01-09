@@ -91,6 +91,7 @@ let g:aqua_bold = get(g:, '_bold', 0)
   hi DiffText guifg=#FCEDD4 ctermfg=230 guibg=#827555 ctermbg=101 gui=NONE cterm=NONE
   hi ErrorMsg guifg=#CE4964 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi VertSplit guifg=#35394A ctermfg=237 guibg=#171927 ctermbg=234 gui=NONE cterm=NONE
+  hi link WinSeparator VertSplit
   hi Folded guifg=#99A8CC ctermfg=110 guibg=#171927 ctermbg=234 gui=NONE cterm=NONE
   hi FoldColumn guifg=#99A8CC ctermfg=110 guibg=#171927 ctermbg=234 gui=NONE cterm=NONE
   hi SignColumn guifg=#99A8CC ctermfg=110 guibg=#171927 ctermbg=234 gui=NONE cterm=NONE
@@ -110,7 +111,7 @@ let g:aqua_bold = get(g:, '_bold', 0)
   hi PmenuSbar guifg=#99A8CC ctermfg=110 guibg=#24355C ctermbg=236 gui=NONE cterm=NONE
   hi PmenuThumb guifg=#DDE2EE ctermfg=254 guibg=#DDE2EE ctermbg=254 gui=NONE cterm=NONE
   hi Question guifg=#B1D8C5 ctermfg=152 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-  hi QuickFixLine guifg=#171927 ctermfg=234 guibg=#DDE2EE ctermbg=254 gui=NONE cterm=NONE
+  hi QuickFixLine guifg=NONE ctermfg=NONE guibg=#262940 ctermbg=235 gui=NONE cterm=NONE
   hi Search guifg=#262940 ctermfg=235 guibg=#FCAFBF ctermbg=217 gui=NONE cterm=NONE
   hi CurSearch guifg=#262940 ctermfg=235 guibg=#F5C676 ctermbg=222 gui=NONE cterm=NONE
   hi SpecialKey guifg=#262940 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
