@@ -6,7 +6,7 @@
 
 ## 想定環境
 
-- Neovim v0.8 ~
+- Neovim (HEAD)
 
 ## 対応プラグイン
 
