@@ -27,6 +27,8 @@ let g:aqua_bold = get(g:, '_bold', 0)
   hi link @boolean Constant
   hi link @character Constant
   hi link @comment Comment
+  hi link @comment.todo Todo
+  hi @comment.note guifg=#9FBAE4 ctermfg=146 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi @constructor guifg=#DDE2EE ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi link @conditional Statement
   hi link @constant Constant
@@ -39,11 +41,13 @@ let g:aqua_bold = get(g:, '_bold', 0)
   hi link @function.macro Function
   hi @field guifg=#DDE2EE ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi link @float Constant
+  hi link @number.float Constant
   hi link @include Statement
   hi link @keyword Statement
   hi link @keyword.function Statement
   hi link @label Special
   hi link @namespace Statement
+  hi link @mobule Statement
   hi link @number Constant
   hi @operator guifg=#DDE2EE ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi @parameter guifg=#DDE2EE ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -55,6 +59,8 @@ let g:aqua_bold = get(g:, '_bold', 0)
   hi link @repeat Statement
   hi link @string String
   hi link @string.regex String
+  hi link @string.regexp String
+  hi link @string.special.url Underlined
   hi link @string.escape Special
   hi link @tag Tag
   hi link @tag.attribute Function
@@ -63,10 +69,17 @@ let g:aqua_bold = get(g:, '_bold', 0)
   hi link @text.note Todo
   hi link @text.title Title
   hi link @text.uri Underlined
+  hi @markup guifg=#DDE2EE ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi link @markup.title Title
+  hi link @markup.heading Title
+  hi link @markup.list Special
+  hi link @markup.link Underlined
   hi link @type Type
   hi link @type.builtin Type
   hi @variable guifg=#DDE2EE ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi link @variable.builtin Statement
+  hi @variable.parameter guifg=#DDE2EE ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi @variable.member guifg=#DDE2EE ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi LazyProgressTodo guifg=#171927 ctermfg=234 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi DiagnosticError guifg=#CE4964 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi DiagnosticWarn guifg=#F5C676 ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
